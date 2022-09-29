@@ -1,0 +1,14 @@
+class Def_const1
+{
+    int age=1;
+    int name=2;
+    public static void main(String args[])
+    {
+        Def_const1 obj=new Def_const1();//every class has a default constructor
+
+        }
+    Def_const1()
+    {
+        System.out.println(age+" "+name);
+    }
+}
